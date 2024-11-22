@@ -11,14 +11,12 @@
     width: 20%;
     justify-content: space-around;
     align-items: center;
-  
     img {
       width: 20%;
     }
-  
     h1 {
       font-size: 30px;
-      color: #fff;
+      color: white;
     }
   }
   
@@ -53,6 +51,9 @@
       border: none;
       width: 60%;
       height: 5vh;
+      border: none;
+      color: white;
+      font-size: 20px;
   
       &::placeholder {
         color: #fff;

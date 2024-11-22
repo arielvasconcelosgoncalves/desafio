@@ -12,7 +12,7 @@ export default function header(){
     return(
         <BrowserRouter>
         <header className={s.header}>
-            <section className='s.logoHeader'>
+            <section className={s.logoHeader}>
                 <img src={logo} alt="imagem de um livro" />
                 <h1>Livros vai na web</h1>
             </section>
