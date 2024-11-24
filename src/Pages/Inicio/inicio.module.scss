@@ -1,4 +1,112 @@
 .post {
-    background-image: url();
-    height: 88vh;
+    background-image:url(../../assets/inicio.png);
+    background-size: contain;
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    h2{
+        position: absolute; 
+        width: 322px; 
+        height: 125px; 
+        left: 125px; 
+        top: 475px; 
+        font-family: 'Roboto'; 
+        font-style: normal; 
+        font-weight: 700; 
+        font-size: 32px; 
+        line-height: 38px; 
+        color: #FFFFFF;
+        
+    }
+}
+.doar{
+    position: absolute; 
+    width: 380px; 
+    height: 59px; 
+    left: 150px; 
+    top: 950px; 
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 40px; 
+    line-height: 48px; 
+    color: #005695;
+}
+.post2{
+    height: 77vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.topico1{
+    background-image: url(../../assets/fundo.png);
+    width: 286px; 
+    height: 321px; 
+    background: rgba(1, 87, 148, 0.3); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 22px; 
+    line-height: 27px; 
+    text-align: center; 
+    color: #000000;
+}
+.topico2{
+    background-image: url(../../assets/fundo.png);
+    width: 286px; 
+    height: 321px; 
+    background: rgba(1, 87, 148, 0.3); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 22px; 
+    line-height: 27px; 
+    text-align: center; 
+    color: #000000;
+}
+.topico3{
+    background-image: url(../../assets/fundo.png);
+    width: 286px; 
+    height: 321px; 
+    background: rgba(1, 87, 148, 0.3); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 22px; 
+    line-height: 27px; 
+    text-align: center; 
+    color: #000000;
+}
+.topico4{
+    background-image: url(../../assets/fundo.png);
+    width: 286px; 
+    height: 321px; 
+    background: rgba(1, 87, 148, 0.3); 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 22px; 
+    line-height: 27px; 
+    text-align: center; 
+    color: #000000;
 }
