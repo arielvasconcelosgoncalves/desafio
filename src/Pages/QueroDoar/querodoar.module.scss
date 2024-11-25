@@ -1,0 +1,29 @@
+.main{
+   display: flex;
+   height: 700px;
+}
+.section1{
+    p{
+        position: absolute;
+        width: 1027px; 
+        height: 40px; 
+        left: 25%;  
+        font-family: 'Inter'; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 24px; 
+        line-height: 29px; 
+        text-align: center; 
+        color: #000000;
+    }
+}
+.section2{
+    background-image: url(../../assets/retangulo.png);
+    position: relative;
+    width: 442px;
+    height: 598px;
+    top: 7%;
+    left: 40%;
+
+
+}

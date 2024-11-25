@@ -1,22 +1,21 @@
 .post {
     background-image:url(../../assets/inicio.png);
-    background-size: contain;
-    height: 77vh;
+    background-size: cover;
+    height: 75vh;
     display: flex;
     align-items: center;
     h2{
         position: absolute; 
         width: 322px; 
-        height: 125px; 
+        height: 125px;
         left: 125px; 
         top: 475px; 
-        font-family: 'Roboto'; 
+        font-family: 'Roboto';
         font-style: normal; 
         font-weight: 700; 
         font-size: 32px; 
         line-height: 38px; 
         color: #FFFFFF;
-        
     }
 }
 .doar{

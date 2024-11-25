@@ -1,8 +1,30 @@
+import s from './footer.module.scss'
+import facebook from '../../../assets/facebook.png'
+import twitter from '../../../assets/twitter.png'
+import youtube from '../../../assets/youtube.png'
+import linkedin from '../../../assets/linkedin.png'
+import instagram from '../../../assets/instagram.png'
+
+
+
+
 export default function Footer() {
     return (
-      <footer>
-        <h2>Eu sou a Footer</h2>
+      <footer className={s.foot}>
+        <section className={s.footer}>
+          <div>
+            <p>4002-8922</p>
+            <img src={facebook} alt="icone facebook" className={s.icone1} />
+            <img src={twitter} alt="icone twitter" className={s.icone2} />
+            <img src={youtube} alt="icone youtube" className={s.icone3} />
+            <img src={linkedin} alt="icone linkedin" className={s.icone4} />
+            <img src={instagram} alt="icone instagram" className={s.icone5} />
+          </div>
+        </section>
+        <section className={s.footer2}>
+          <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
+        </section>
       </footer>
     );
-  }
+}
   
