@@ -5,30 +5,28 @@
     display: flex;
     align-items: center;
     h2{
-        position: absolute; 
-        width: 322px; 
-        height: 125px;
-        left: 125px; 
-        top: 475px; 
+        width: 20vw; 
+        height: 16vh;
+        margin-left: 8vw; 
+        margin-top: 3vh; 
         font-family: 'Roboto';
         font-style: normal; 
         font-weight: 700; 
         font-size: 32px; 
-        line-height: 38px; 
+        line-height: 5vh; 
         color: #FFFFFF;
     }
 }
 .doar{
-    position: absolute; 
-    width: 380px; 
-    height: 59px; 
-    left: 150px; 
-    top: 950px; 
+    width: 60vw; 
+    height: 7vh; 
+    margin-left: 7.5vw; 
+    margin-top: 1vh; 
     font-family: 'Inter'; 
     font-style: normal; 
     font-weight: 500; 
     font-size: 40px; 
-    line-height: 48px; 
+    line-height: 35vh; 
     color: #005695;
 }
 .post2{
@@ -39,8 +37,8 @@
 }
 .topico1{
     background-image: url(../../assets/fundo.png);
-    width: 286px; 
-    height: 321px; 
+    width: 15vw; 
+    height: 34vh; 
     background: rgba(1, 87, 148, 0.3); 
     border-radius: 10px;
     display: flex;
@@ -51,14 +49,14 @@
     font-style: normal; 
     font-weight: 400; 
     font-size: 22px; 
-    line-height: 27px; 
+    line-height: 3.5vh; 
     text-align: center; 
     color: #000000;
 }
 .topico2{
     background-image: url(../../assets/fundo.png);
-    width: 286px; 
-    height: 321px; 
+    width: 15vw; 
+    height: 34vh; 
     background: rgba(1, 87, 148, 0.3); 
     border-radius: 10px;
     display: flex;
@@ -69,14 +67,14 @@
     font-style: normal; 
     font-weight: 400; 
     font-size: 22px; 
-    line-height: 27px; 
+    line-height: 3.5vh; 
     text-align: center; 
     color: #000000;
 }
 .topico3{
     background-image: url(../../assets/fundo.png);
-    width: 286px; 
-    height: 321px; 
+    width: 15vw; 
+    height: 34vh; 
     background: rgba(1, 87, 148, 0.3); 
     border-radius: 10px;
     display: flex;
@@ -87,14 +85,14 @@
     font-style: normal; 
     font-weight: 400; 
     font-size: 22px; 
-    line-height: 27px; 
+    line-height: 3.5vh; 
     text-align: center; 
     color: #000000;
 }
 .topico4{
     background-image: url(../../assets/fundo.png);
-    width: 286px; 
-    height: 321px; 
+    width: 15vw; 
+    height: 34vh; 
     background: rgba(1, 87, 148, 0.3); 
     border-radius: 10px;
     display: flex;
@@ -105,7 +103,7 @@
     font-style: normal; 
     font-weight: 400; 
     font-size: 22px; 
-    line-height: 27px; 
+    line-height: 3.5vh; 
     text-align: center; 
     color: #000000;
 }

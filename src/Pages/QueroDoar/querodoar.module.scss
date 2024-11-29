@@ -1,44 +1,41 @@
 .main{
    display: flex;
-   height: 700px;
+   align-items: center;
+   flex-direction: column;
+   height: 90vh;
 }
 .section1{
     p{
-        position: absolute;
-        width: 1027px; 
-        height: 40px; 
-        left: 25%;  
+        width: 64vw; 
+        height: 5vh; 
+        margin-left: 3vw; 
+        margin-top: 3vh; 
         font-family: 'Inter'; 
         font-style: normal; 
         font-weight: 400; 
         font-size: 24px; 
-        line-height: 29px; 
+        line-height: 3.75vh; 
         text-align: center; 
         color: #000000;
     }
 }
 .section2{
     background-image: url(../../assets/retangulo.png);
-    position: relative;
     width: 442px;
     height: 598px;
-    top: 7%;
-    left: 40%;
+    margin-top: 4%;
     display: flex;
     flex-direction: column;
-    align-items: center;
- 
-
-
+    align-items: center;   
 }
 .sectionimg{
-    height: 170px;
+    height: 22vh;
     display: flex;
     align-items: center;
 }
 .section3{
-    width: 325px; 
-    height: 286px;
+    width: 20vw; 
+    height: 37vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -47,7 +44,7 @@
         border-radius: 20px;
         margin-right: 1%;
         background-color: transparent;
-        width: 325px;
+        width: 20vw;
         height: 5vh;
         font-size: 20px;
   
@@ -59,9 +56,8 @@
       }
     }
 }
-
 .section4{
-    height: 142px;
+    height: 18vh;
     display: flex;
     align-items: center;
         Button{
@@ -69,17 +65,14 @@
         border-radius: 20px;
         margin-right: 1%;
         background-color: #005695;
-        width: 195px;
-        height: 53px;
+        width: 12vw;
+        height: 6.85vh;
         font-family: 'Inter'; 
         font-style: normal; 
         font-weight: 400; 
         font-size: 20px; 
-        line-height: 24px; 
+        line-height: 3.10vh; 
         text-align: center; 
-        color: #FFFFFF;
-
-        
+        color: #FFFFFF;        
         }
-
 }

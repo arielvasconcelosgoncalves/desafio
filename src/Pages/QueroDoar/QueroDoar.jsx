@@ -10,11 +10,11 @@ export default function QueroDoar(){
         <section className={s.section1}>
             <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
         </section>
-        <form className={s.section2}>
-            <section className={s.sectionimg}>
+        <form action="" className={s.section2}>
+        <section className={s.sectionimg}>
                 <img src={livro} alt="" />
-            </section>
-        <section action="" className={s.section3}>
+        </section>
+        <section className={s.section3}>
             <div>
                 <input type="text" name='' id='' placeholder='Título' />
             </div>

@@ -2,41 +2,38 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 700px;
+    height: 80vh;
     h1{
-        position: relative;
-        top: 3%;
-        width: 777px; 
-        height: 40px; 
+        margin-top: 1%;
+        width: 48vw; 
+        height: 5vh; 
         font-family: 'Inter'; 
         font-style: normal; 
         font-weight: 700; 
         font-size: 32px; 
-        line-height: 39px; 
+        line-height: 5vh; 
         text-align: center; 
         color: #000000;
     }
 }
 .div{
     background-image: url('../../assets/livro.png');
-    position: relative;
     width: 245px;
     height: 264px;
-    top: 5%;
-    left: -37%;
+    margin-top: 3%;
+    margin-left: -70%;
     ul{
-        height: 70px;
-        position: relative;
+        height: 9vh;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: space-evenly;
-        top: 65%;
+        margin-top: 65%;
         font-family: 'Inter'; 
         font-style: normal; 
         font-weight: 400; 
         font-size: 16px; 
-        line-height: 19px; 
+        line-height: 2.45vh; 
         text-align: center; 
         color: #000000;
     }
