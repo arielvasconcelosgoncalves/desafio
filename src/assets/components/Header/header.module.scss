@@ -67,4 +67,81 @@
       cursor: pointer;
     }
   }
+  @media (max-width:1000px) {
+      .logoHeader {
+        display: flex;
+        width: 32%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 20%;
+        }
+        h1 {
+          font-size: 30px;
+          color: white;
+        }
+      }
+      .navHeader {
+        width: 40%;
+      
+        ul {
+          display: flex;
+          justify-content: space-around;
+          list-style: none;
+        }
+      
+        .link {
+          color: #fff;
+          font-size: 20px;
+          text-decoration: none;
+        }
+      }
+
+    
+  }
+@media (max-width:750px){
+  .header {
+    background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+  }
+  .logoHeader {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 20%;
+      //height: 40%;
+    }
+    h1 {
+      font-size: 30px;
+      color: white;
+      width: 60vw;
+      text-align: center;
+    }
+  }
+  .navHeader {
+    width: 80%;
+  
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+  
+    .link {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+  .barraDeBusca {
+      display: none;
+    }
+}
   
