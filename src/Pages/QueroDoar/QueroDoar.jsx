@@ -1,5 +1,5 @@
 import s from './querodoar.module.scss'
-import livro from '../../assets/livro_titulo.png'
+import livro from '../../assets/simbolo_livro.png'
 
 
 
@@ -13,6 +13,7 @@ export default function QueroDoar(){
         <form action="" className={s.section2}>
         <section className={s.sectionimg}>
                 <img src={livro} alt="" />
+                <h1>Informações do Livro</h1>
         </section>
         <section className={s.section3}>
             <div>
